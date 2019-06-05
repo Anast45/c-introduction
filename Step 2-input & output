@@ -1,0 +1,17 @@
+#include<stdio.h> 
+
+int main()
+{
+int x;//integer like 1,2,45,-1,-99    
+char ch;//character like a,b,c,...
+float f;//like 3.2,4.5
+  
+  scanf("%d%f",&x,&f);//asks user for an integer         
+  printf("%d\n%f\n",x,f);//\n is just an extra. %d%f isnt an error but they are in the same lane.
+  //be careful ot to use \n on scanf.. only at printf
+  
+  //scanf("%c",&ch);  
+  //printf("%c",ch);  
+  
+  return 0; 
+}
