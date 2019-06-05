@@ -1,0 +1,41 @@
+//change the code :(1) Two integers compare to each other x,y. if() x>y show x. if() y>x print y .
+//(else) x=y **(a==b)\means they are same\
+/*
+#include<stdio.h> 
+
+int main()
+{
+int x;//integer like 1,2,-1    
+char ch;//character like a,b,c,..
+  
+  scanf("%d%f",&x,&f);         
+  printf("%d\n%f\n",x,f);
+  //be careful ot to use \n on scanf.. only at printf
+  
+  if(x>5){printf("int given >5");}
+  else{printf("int given <5");}//dont forget {}
+  
+  return 0; 
+}*/
+
+
+
+
+
+
+//SOLUTION///////////////////////////////////////////////////////////////////////////////////////////////////
+#include<stdio.h>
+int main()
+{
+int x,y;   
+  
+  printf("give me two integers\n");
+  scanf("%d%d",&x,&y);         
+  
+  if(x>y){printf("%d\n",x);}
+  if(x<y){printf("%d\n",y);}
+  else{printf("x=y");}
+  //or if(x==y){printf("x=y");}
+  
+  return 0; 
+}
