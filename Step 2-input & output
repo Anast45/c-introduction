@@ -13,5 +13,8 @@ float f;//like 3.2,4.5
   //scanf("%c",&ch); // 
   //printf("%c",ch); // 
   
+  if(x>5){printf("int given >5");}
+  else{printf("int given <5");}//dont forget {}
+  
   return 0; 
 }
