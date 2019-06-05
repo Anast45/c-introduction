@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+
+  int x, y, z;			//declaration of variables
+
+  printf ("give me 2 numbers both <=10\n");
+  scanf ("%d%d", &x, &y);	//asks for two ints
+
+  while ((x < 10) || (y < 10))	//while x<10 or y<10 
+    {
+      printf ("try again\n");
+      scanf ("%d%d", &x, &y);	//asks for x & y again  
+    };
+
+  z = x + y;
+  printf ("z = %d", z);
+
+  return 0;
+}
