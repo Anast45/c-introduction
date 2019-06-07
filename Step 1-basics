@@ -7,3 +7,5 @@ int main()
   printf("my first program");       //be careful of.. prin()f fault missing t
   return 0;                          //be careful of.. not using->; 
 }
+
+//Output: my first program
