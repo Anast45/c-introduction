@@ -1,10 +1,9 @@
-//Writing my 1st program in C
-
-
-#include<stdio.h> //be careful of.. st(u)dio correct-> stdio
+//Writing my 1st program in C 
+//-->comments (not parts of the acual code)
+#include<stdio.h>                   //be careful of.. st(u)dio correct-> stdio
 
 int main()
 {
-  printf("my first program"); //be careful of.. prin()f fault missing t
-  return 0;//be careful of.. not using->; 
+  printf("my first program");       //be careful of.. prin()f fault missing t
+  return 0;                          //be careful of.. not using->; 
 }
