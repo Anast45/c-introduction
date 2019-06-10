@@ -2,15 +2,15 @@
 int main()
 {
 
-  int x, y, z;			
+  int x, y, z;			//declaration of variables
 
   printf ("give me 2 numbers both <=10\n");
-  scanf ("%d%d", &x, &y);	
+  scanf ("%d%d", &x, &y);	//asks for two ints
 
-  while ((x < 10) || (y < 10))	
+  while ((x < 10) || (y < 10))	//(while x<10 or y<10 ) -- if i changed || to && means both should be <10 
     {
       printf ("try again\n");
-      scanf ("%d%d", &x, &y);  
+      scanf ("%d%d", &x, &y);	//asks for x & y again  
     };
 
   z = x + y;
